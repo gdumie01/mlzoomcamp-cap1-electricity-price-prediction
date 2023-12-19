@@ -34,7 +34,7 @@ hourly_status = {
     "price_actual_lag1h":55.06
 }
 
-url = 'http://localhost:9696/predict_price'
+url = 'http://localhost:9698/predict_price'
 response = requests.post(url, json=hourly_status)
 result = response.json()
 
