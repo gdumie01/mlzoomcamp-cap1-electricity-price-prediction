@@ -10,7 +10,7 @@ I have choosen this particular problem because I was curious to understand if us
 
 After testing with several neural network configurations a stacked Recurrent Neural Network was choosen based on the RMSE vs. a naive technique such as using the previous hour price as a predictor to the next hour price. With this model I could beat the performance of the naive approach by 12% proving some predictive power in the deep learning approach. You can check my exploration journey on this [notebook](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/notebook.ipynb).
 
-![Model Visualization](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/data/model_visualization.png)
+![Model Visualization](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/images/model_visualization.png)
 
 ## Problem description and usage
 ### Problem description
@@ -127,4 +127,4 @@ python predict-tester.py
 ```
 ##### 5. If you want to use other data you can just change it in the scritp and run again
 ## Sample output
-![Sample output](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/data/sample_output.png)
+![Sample output](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/images/sample_output.png)
