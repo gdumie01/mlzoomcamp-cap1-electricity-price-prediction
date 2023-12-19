@@ -4,7 +4,7 @@ This repository contains the code and materials for the Cap Stone #1 project of 
 
 ## Overview
 
-In this project, I have worked on a [Kaggle hourly energy price dataset](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather) that contains information related to generation mix, demand load, and historical price performance of the Spanish market.
+In this project, I have worked on a [Kaggle hourly energy price dataset](https://www.kaggle.com/datasets/nicholasjhana/energy-consumption-generation-prices-and-weather) that contains information related to generation mix, demand load, and historical price performance of the spanish electricity market.
 
 I have choosen this particular problem because I was curious to understand if using deep learning techniques would enable me to build an effective model on predicting the price of electricity, thus paving the ground to develop proprietary trading mechanisms in the electricity market. In addition, I also wanted to work with a timeseries as it was something we did not had during this cohort.
 
