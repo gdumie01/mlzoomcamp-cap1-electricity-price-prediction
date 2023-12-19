@@ -128,4 +128,4 @@ python predict-tester.py
 ```
 ##### 5. If you want to use other data you can just change it in the scritp and run again
 ## Sample output
-![Sample output](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/images/sample_output.png)
+![Sample output](https://github.com/gdumie01/mlzoomcamp-cap1-electricity-price-prediction/blob/main/images/sample-output.png)
