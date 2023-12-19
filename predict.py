@@ -6,7 +6,7 @@ import pandas as pd
 
 app = Flask('predict_price') # give an identity to your web service
 
-interpreter = lite.Interpreter(model_path='electricity-price-pred-model.tflite')
+interpreter = lite.Interpreter(model_path='model/electricity-price-pred-model.tflite')
 interpreter.allocate_tensors()
 input_index = interpreter.get_input_details()[0]['index']
 output_index = interpreter.get_output_details()[0]['index']
@@ -37,4 +37,4 @@ def predict():
         return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
-   app.run(debug=True, host='0.0.0.0', port=9696) # run the code in local machine with the debugging mode true and port 9696
+   app.run(debug=True, host='0.0.0.0', port=9698)
