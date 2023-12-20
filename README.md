@@ -82,6 +82,7 @@ pipenv install
 Wait for pipenv to be done with installing the packages and dependencies.
 
 NOTE: if you get any error during `pipenv install` try updating the lock file with `pipenv lock --pre --clear` and then repeating the install step above.
+NOTE2: workaround above is required if you are running inside a conda environment (e.g.: launching a console from within Anaconda Explorer)
 
 ##### 3. Launch the pipenv shell
 ```
