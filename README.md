@@ -54,6 +54,7 @@ For the notebook you´ll need:
 - Keras
 - Seaborn
 - Matplotlib
+- statsmodels
 
 To run the python scripts you´ll need:
 - Flask
