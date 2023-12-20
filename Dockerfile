@@ -1,5 +1,5 @@
 # First install the python 3.8, the slim version uses less space
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # Install pipenv library in Docker 
 RUN pip install pipenv
@@ -19,7 +19,7 @@ COPY ["*.py", "./"]
 # Copy the model and the scaler
 COPY ["model/", "./model/"]
 
-# We need to expose the 9696 port because we're not able to communicate with Docker outside it
+# We need to expose the 9698 port because we're not able to communicate with Docker outside it
 EXPOSE 9698
 
 # If we run the Docker image, we want our prediction service to be running
